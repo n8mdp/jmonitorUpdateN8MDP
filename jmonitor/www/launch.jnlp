@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://n8mdp.dyndns.org/n8mdpASP/jmonitorN8MDP" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>JMonitor</title>
+        <vendor>John Melton g0orx/n6lyt, Updated by John Tucker N8MDP</vendor>
+        <homepage href="http://www.n8mdp.com"/>
+        <description>This is an updated version of the Java release from John Melton. The updates
+include colorization of waterfall, Master/Slave operation, similar to QtRadio</description>
+        <description kind="short">JMonitor</description>
+    </information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar href="jmonitor.jar" main="true"/>
+    <jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <applet-desc height="230" main-class="jmonitor.MonitorApplet" name="JMonitor" width="480">
+    </applet-desc>
+</jnlp>
